@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: plateforme-projet
+    env: php
+    plan: free
+    buildCommand: ""
+    startCommand: ""
+    rootDir: .
+    region: frankfurt
+
+databases:
+  - name: gestion_projets
+
